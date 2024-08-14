@@ -32,40 +32,8 @@ Create a steganography tool that allows users to hide text within images and lat
 
 This method ensures that the text is hidden within the image with minimal impact on visual quality.
 
+
 ## Steps
-
-### 1. Clone the Repository
-Start by cloning the repository to your local machine:
-```bash
-git clone https://github.com/Diwakarty/steganography-tool
-cd steganography-tool
-
-Here’s how you can include the steps in Markdown format:
-
-```markdown
-# Steganography Tool
-
-## Overview
-
-- **Git**: Version control tool.
-- **GitHub**: Platform to host and share the project.
-
-## How It Works
-
-1. **Encoding Text**:
-   - The tool converts the input text into binary format.
-   - It then embeds this binary data into the Least Significant Bits (LSBs) of the image's red color component.
-   - The embedding process modifies the LSB of each pixel to encode the binary text while keeping changes minimal to avoid noticeable distortion.
-   - A delimiter (`1111111111111110`) is added at the end of the text to mark its conclusion.
-
-2. **Decoding Text**:
-   - The tool reads the LSBs of the image's red color component to extract the binary data.
-   - It reconstructs the binary text from these bits and converts it back to readable text.
-   - The extraction process stops when it encounters the delimiter, indicating the end of the hidden message.
-
-This method ensures that the text is hidden within the image with minimal impact on visual quality.
-
-## Steps to Use the Tool
 
 ### 1. Clone the Repository
 
