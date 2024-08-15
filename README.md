@@ -1,5 +1,11 @@
 # Steganography Tool
 
+## What Is Steganography?
+
+Steganography is the practice of concealing information within other non-secret text or data. Unlike encryption, which makes the content unreadable to unauthorized users, steganography hides the very existence of the information. The hidden message is embedded within a carrier file, such as an image, audio, or video file, in a way that is not apparent to casual observers.
+
+In essence, steganography ensures that the message remains hidden in plain sight, making it a powerful technique for secure communication and data protection.
+
 ## Objective
 Create a steganography tool that allows users to hide text within images and later retrieve the hidden text. The tool supports image formats like `.webp`, `.png`, `.jpeg`, `.jpg`, `.bmp`, `.tiff`, and `.gif`.
 
